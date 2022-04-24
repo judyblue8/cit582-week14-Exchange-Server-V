@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from algosdk.v2client import algod
 from algosdk.v2client import indexer
 from algosdk import account
