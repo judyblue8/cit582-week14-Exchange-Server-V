@@ -7,7 +7,7 @@ import algosdk as ak
 
 def connect_to_algo(connection_type=''):
     # Connect to Algorand node maintained by PureStake
-    algod_token = "KIYLICTGTZR64CALP6MCJLZKB4XJA5AHXWMU55ZFBOR32FMNYBNQ"
+    algod_token = "B3SU4KcVKi94Jap2VXkK83xx38bsv95K5UZm2lab"
 
     if connection_type == "indexer":
         # TODO: return an instance of the v2client indexer. This is used for checking payments for tx_id's
