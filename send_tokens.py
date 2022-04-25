@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from algosdk.v2client import algod
 from algosdk.v2client import indexer
 from algosdk import account
@@ -150,4 +148,3 @@ def send_tokens_eth(w3,sender_sk,txes):
         tx['tx_id'] = tx_id
 
     return tx_ids
-
