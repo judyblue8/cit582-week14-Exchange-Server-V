@@ -109,8 +109,8 @@ def get_algo_keys():
     # the algorand public/private keys
     import algosdk as ak
     sk, pk = ak.account.generate_account()
-    algo_sk = 't0oauFzGhzUxkgKboxhxlpgTQoHgE0y5/uzz/zr1jnimyyZnoLkmCJgqmY5+ntM7WFhLxAr8u7bCd1wmgX4OgA=='
-    algo_pk = 'U3FSMZ5AXETARGBKTGHH5HWTHNMFQS6EBL6LXNWCO5OCNAL6B2AFXLZMTY'
+    algo_sk="wjx5Wex5iI6tS4OdqyVypCX8lf/NHFtz6NCcW05sEfdIgwRYKbFfKIHMJYrN8dTdVWOQ2/Q17KU9q05etUT+2g=="
+    algo_pk="JCBQIWBJWFPSRAOMEWFM34OU3VKWHEG36Q26ZJJ5VNHF5NKE73NPM6GCOQ"
     return sk, pk
 
 
