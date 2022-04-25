@@ -111,7 +111,7 @@ def get_algo_keys():
     sk, pk = ak.account.generate_account()
     algo_sk="wjx5Wex5iI6tS4OdqyVypCX8lf/NHFtz6NCcW05sEfdIgwRYKbFfKIHMJYrN8dTdVWOQ2/Q17KU9q05etUT+2g=="
     algo_pk="JCBQIWBJWFPSRAOMEWFM34OU3VKWHEG36Q26ZJJ5VNHF5NKE73NPM6GCOQ"
-    return sk, pk
+    return algo_sk, algo_pk
 
 
 def get_eth_keys(filename="eth_mnemonic.txt"):
